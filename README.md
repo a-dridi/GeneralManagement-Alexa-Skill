@@ -8,7 +8,7 @@ Ein Alexa-Skill zur Abfrage von bestimmten Daten, die in der Tabelle "Organisati
 Zum Beispiel können Sie nach einem bestimmten Kabel abfragen. 
 Sprache: Deutsch (Österreich)
 
-![Screenshot of Alexa Skill: General Management](https://raw.githubusercontent.com/a-dridi/GeneralManagement-Alexa-Skill/main/screenshot.PNG)
+![Screenshot of Alexa Skill: General Management](https://raw.githubusercontent.com/a-dridi/GeneralManagement-Alexa-Skill/main/screenshot.jpg)
 
 
 ## Usage / Verwendung
