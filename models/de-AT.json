@@ -1,0 +1,53 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "organisierung abrufen",
+            "intents": [
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SearchingDescriptionIntent",
+                    "slots": [
+                        {
+                            "name": "searcheddescription",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "Wo ist {searcheddescription}",
+                        "Wo befindet sich {searcheddescription}",
+                        "Wo ist in mein Zimmer",
+                        "Wo befindet sich mein Zimmer",
+                        "Mein Zimmer ist wo"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "organizationSearchDescription",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "computer"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "listData": {
+        "type": "object",
+        "properties": {
+            "config": {
+                "backgroundImage": "https://i.imgur.com/Y21B9Y5.jpg",
+                "title": "Today's Birthdays",
+                "skillIcon": "https://i.imgur.com/ZJJtcRT.png",
+                "hintText": "Alexa, how many days until my birthday?"
+            },
+            "list": {
+                "listItems": [{
+                        "organizationId": 52,
+                        "description": "HDMI Kabel",
+                        "organizationCategory": {
+                            "organizationCategoryId": 1,
+                            "categoryTitle": "Elektronik"
+                        },
+                        "location": "Fernsehschrank",
+                        "status": "OK",
+                        "information": "Zu lang",
+                        "attachment": false,
+                        "attachmentPath": "",
+                        "attachmentName": "",
+                        "attachmentType": "",
+                        "deleted": false,
+                        "userId": 151
+                    },
+                    {
+                        "organizationId": 53,
+                        "description": "HDMI Kabel",
+                        "organizationCategory": {
+                            "organizationCategoryId": 1,
+                            "categoryTitle": "Elektronik"
+                        },
+                        "location": "Fernsehschrank",
+                        "status": "OK",
+                        "information": "Zu lang",
+                        "attachment": false,
+                        "attachmentPath": "",
+                        "attachmentName": "",
+                        "attachmentType": "",
+                        "deleted": false,
+                        "userId": 151
+                    },
+                    {
+                        "organizationId": 54,
+                        "description": "HDMI Kabel",
+                        "organizationCategory": {
+                            "organizationCategoryId": 1,
+                            "categoryTitle": "Elektronik"
+                        },
+                        "location": "Fernsehschrank",
+                        "status": "OK",
+                        "information": "Zu lang",
+                        "attachment": false,
+                        "attachmentPath": "",
+                        "attachmentName": "",
+                        "attachmentType": "",
+                        "deleted": false,
+                        "userId": 151
+                    }
+                ]
+            }
+        },
+        "transformers": [{
+            "inputPath": "config.hintText",
+            "transformer": "textToHint"
+        }]
+    }
+}
